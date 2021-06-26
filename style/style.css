@@ -40,6 +40,7 @@ body{
     width: 25%;
     padding: 20px;
     float: left;
+    text-align: center;
 }
 
 .content-profile img{
@@ -53,8 +54,23 @@ body{
 .content-profile h1{
     height: 50%;
     text-transform: uppercase;
-    text-shadow: 3px 3px 5px rgb(146, 137, 137);
+    text-shadow: 3px 3px 5px #18394D;
     font-size: 25px;
+}
+
+.content-academic ul{
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-contact a{
+    text-decoration: none;
+}
+
+.content-contact a:hover{
+    text-decoration: underline;
 }
 
 /*-----------------------*/
@@ -72,6 +88,9 @@ body{
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin-top: 1rem;
+}
+.content-main p{
+    line-height: 1.5;
 }
 
 /*-------------------------*/
@@ -110,6 +129,7 @@ body{
 /*--------------*/
 
 .content-main-home{
+    margin: 0 1rem;
     letter-spacing: 1.7px;
 }
 
@@ -119,15 +139,33 @@ body{
 /*-----------------*/
 
 .content-main-hobbies{
+    margin: 0 1rem;
     letter-spacing: 1.7px;
 }
 
-/*-----------------*/
-/* Content Projects */
-/*-----------------*/
+.content-main-hobbies a{
+    text-decoration: none;
+}
 
-.content-main-hobbies{
+.content-main-hobbies a:hover{
+    text-decoration: underline;
+}
+
+/*------------------*/
+/* Content Projects */
+/*------------------*/
+
+.content-main-projects{
+    margin: 0 1rem;
     letter-spacing: 1.7px;
+}
+
+.content-main-projects a{
+    text-decoration: none;
+}
+
+.content-main-projects a:hover{
+    text-decoration: underline;
 }
 
 
@@ -135,8 +173,34 @@ body{
 /* Content Contact */
 /*-----------------*/
 
-.content-main-hobbies{
+.content-main-contact{
+    margin: 1rem;
     letter-spacing: 1.7px;
 }
+
+.contact-card{
+    display: inline-block;
+    margin-right: 2rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-card:hover{
+    background-color: #18394d2d;
+    
+}
+
+.contact-card a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.content-main-contact img{
+    width: 80px;
+
+}
+
 
 

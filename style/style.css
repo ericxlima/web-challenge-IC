@@ -168,6 +168,27 @@ body{
     text-decoration: underline;
 }
 
+.project-card{
+    border-radius: 0.5rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2rem;
+    padding: 10px;
+}
+
+.project-card:hover{
+    background-color: #18394d2d;
+}
+
+.project-card img{
+    width: 100px;
+}
+
+.project-card a{
+    text-decoration: none;
+    color: black;
+}
+
 
 /*-----------------*/
 /* Content Contact */

@@ -24,12 +24,19 @@
 
 body{
     font-family: arial, sans-serif;
-    background-color: #ccc;
+    background-color: #18394D;
     margin: 0;
     align-items: stretch;
 }
 
+/*----------------------*/
+/* UI for left-box area */
+/*----------------------*/
+
 .left-box{
+    margin: 10px;
+    border-radius: 1rem;
+    background-color: #C1D2DE;
     width: 25%;
     padding: 20px;
     float: left;
@@ -37,7 +44,7 @@ body{
 
 .content-profile img{
     border-radius: 50%;
-    width: 15rem;
+    width: 80%;
 }
 
 .content-profile h1{
@@ -47,10 +54,24 @@ body{
     font-size: 25px;
 }
 
+/*-----------------------*/
+/* UI for right-box area */
+/*-----------------------*/
+
 .right-box{
-    padding: 20px;
-    width: 75%;
-    float: left;
+    margin: 10px;
+    width: 70%;
+    float: right;
+}
+
+/*-------------------------*/
+/* UI for menu/navbar area */
+/*-------------------------*/
+
+.nav-menu{
+    background-color: #C1D2DE;
+    padding: 0.05rem;
+    border-radius: 0.5rem;
 }
 
 .menu{
@@ -61,19 +82,26 @@ body{
 .menu a{
     text-decoration: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.34);
+    background-color: #5E8399;
     display: block;
     padding: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    border-radius: 1rem;
 }
 
 .menu a:hover{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #18394D;
 }
 
 
-/*-----------*/
-/* Main Home */
-/*-----------*/
+/*--------------*/
+/* Content Home */
+/*--------------*/
 
+.content-main-home{
+    background-color: #C1D2DE;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}

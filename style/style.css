@@ -45,6 +45,9 @@ body{
 .content-profile img{
     border-radius: 50%;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .content-profile h1{
@@ -62,6 +65,13 @@ body{
     margin: 10px;
     width: 70%;
     float: right;
+}
+
+.content-main{
+    background-color: #C1D2DE;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
 }
 
 /*-------------------------*/
@@ -100,8 +110,33 @@ body{
 /*--------------*/
 
 .content-main-home{
-    background-color: #C1D2DE;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    margin-top: 1rem;
+    letter-spacing: 1.7px;
 }
+
+
+/*-----------------*/
+/* Content Hobbies */
+/*-----------------*/
+
+.content-main-hobbies{
+    letter-spacing: 1.7px;
+}
+
+/*-----------------*/
+/* Content Projects */
+/*-----------------*/
+
+.content-main-hobbies{
+    letter-spacing: 1.7px;
+}
+
+
+/*-----------------*/
+/* Content Contact */
+/*-----------------*/
+
+.content-main-hobbies{
+    letter-spacing: 1.7px;
+}
+
+

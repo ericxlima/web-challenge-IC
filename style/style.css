@@ -229,6 +229,22 @@ body{
         padding: 20px;
         text-align: center;
     }
+    .nav-menu ul{
+        list-style-position: outside;
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .nav-menu ul li{
+        width: 24%;
+        margin: 0;
+    }
+    .nav-menu a{
+        text-align: center;
+        font-size: small;
+        padding: 5px;
+        letter-spacing: 1px;
+    }
     .right-box{
         margin: 0 5% 5%;
         width: 90%;

@@ -210,14 +210,75 @@ body{
 /*----------------------------*/
 
 /*  Large devices  */
-@media (min-width: 992px) {
-    /*  loading...  */
+@media (max-width: 992px) {
+    /*  this project was maked in desktop first design   */
+
 }
 
+
 /*  Medium devices  */
-@media (max-width: 768px) {
-    /*  loading...  */
+@media (max-width: 800px) {
+    
+    /*-----------------------*/
+    /* Top-box/Left-box Area */
+    /*-----------------------*/
+    
+    .left-box{
+        margin: 2.5%;
+        border-radius: 1rem;
+        background-color: #C1D2DE;
+        width: 95%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .content-profile{
+        width: 30%;
+        display: inline-block;
+    }
+
+    .content-profile h1{
+        margin: 0.5rem;
+    }
+
+    .content-profile img{
+        width: 50%;
+    }
+
+    .md-content-left-box{
+        width: 69%;
+        float: right;
+        padding-top: 1rem;
+    }
+
+    /*--------------*/
+    /* Nav-bar Menu */
+    /*--------------*/
+
+    .right-box{
+        margin: 0 2.5%;
+        width: 95%;
+    }
+
+    .nav-menu{
+        margin-bottom: 2.5%;
+        text-align: center;
+    }
+
+    .nav-menu ul{
+        margin: 1rem;
+        padding-left: 0;
+    }
+
+    .menu{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
+
+
 
 /*  Small devices  */
 @media (max-width: 576px) {
@@ -228,6 +289,16 @@ body{
         width: 90%;
         padding: 20px;
         text-align: center;
+    }
+
+    .content-profile{
+        width: 80%;
+    }
+
+    .md-content-left-box{
+        float: none;
+        margin: auto;
+        width: 90%;
     }
 
     .nav-menu ul{

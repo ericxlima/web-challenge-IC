@@ -2,18 +2,23 @@
 /* UI for all pages */
 /*------------------*/
 
-* {box-sizing: border-box;}
+
+* {
+    box-sizing: border-box;
+}
 
 body{
     font-family: arial, sans-serif;
     background-color: #18394D;
-    margin: 0;
+    margin: 0.5rem;
     align-items: stretch;
 }
+
 
 /*----------------------*/
 /* UI for left-box area */
 /*----------------------*/
+
 
 .left-box{
     margin: 10px;
@@ -55,9 +60,11 @@ body{
     text-decoration: underline;
 }
 
+
 /*-----------------------*/
 /* UI for right-box area */
 /*-----------------------*/
+
 
 .right-box{
     margin: 10px;
@@ -71,13 +78,16 @@ body{
     padding: 0.5rem;
     margin-top: 1rem;
 }
+
 .content-main p{
     line-height: 1.5;
 }
 
+
 /*-------------------------*/
 /* UI for menu/navbar area */
 /*-------------------------*/
+
 
 .nav-menu{
     background-color: #C1D2DE;
@@ -88,6 +98,7 @@ body{
 .menu{
     display: inline-block;
     list-style: none;
+    justify-content: space-between;
 }
 
 .menu a{
@@ -110,8 +121,9 @@ body{
 /* Content Home */
 /*--------------*/
 
+
 .content-main-home{
-    margin: 0 1rem;
+    margin: 0 1rem 1rem;
     letter-spacing: 1.7px;
 }
 
@@ -119,6 +131,7 @@ body{
 /*-----------------*/
 /* Content Hobbies */
 /*-----------------*/
+
 
 .content-main-hobbies{
     margin: 0 1rem;
@@ -133,9 +146,11 @@ body{
     text-decoration: underline;
 }
 
+
 /*------------------*/
 /* Content Projects */
 /*------------------*/
+
 
 .content-main-projects{
     margin: 0 1rem;
@@ -176,6 +191,7 @@ body{
 /* Content Contact */
 /*-----------------*/
 
+
 .content-main-contact{
     margin: 1rem;
     letter-spacing: 1.7px;
@@ -209,20 +225,20 @@ body{
 /* Media Queries - Responsive */
 /*----------------------------*/
 
+
 /*  Large devices  */
 @media (max-width: 992px) {
-    /*  this project was maked in desktop first design   */
-
+    /*  Nothing here, because this project was maked in desktop first design  */
 }
 
 
 /*  Medium devices  */
 @media (max-width: 800px) {
-    
     /*-----------------------*/
     /* Top-box/Left-box Area */
     /*-----------------------*/
     
+
     .left-box{
         margin: 2.5%;
         border-radius: 1rem;
@@ -251,12 +267,14 @@ body{
         padding-top: 1rem;
     }
 
+
     /*--------------*/
     /* Nav-bar Menu */
     /*--------------*/
 
+
     .right-box{
-        margin: 0 2.5%;
+        margin: 0 2.5% 1rem;
         width: 95%;
     }
 
@@ -266,8 +284,12 @@ body{
     }
 
     .nav-menu ul{
-        margin: 1rem;
-        padding-left: 0;
+        margin: 0;
+        padding: 0.5rem;
+    }
+    
+    .nav-menu li{
+        width: auto;
     }
 
     .menu{
@@ -276,12 +298,25 @@ body{
         margin-right: auto;
     }
 
-}
 
+    /*-------*/
+    /* Cards */
+    /*-------*/
+
+
+    .contact-card{
+        margin-right: 5%;
+    }
+}
 
 
 /*  Small devices  */
 @media (max-width: 576px) {
+    /*-----------------------*/
+    /* Top-box/Left-box Area */
+    /*-----------------------*/
+
+
     .left-box{
         margin: 5%;
         border-radius: 1rem;
@@ -301,24 +336,41 @@ body{
         width: 90%;
     }
 
+
+    /*--------------*/
+    /* Nav-bar Menu */
+    /*--------------*/ 
+
+
+    .nav-menu{
+        background-color: #C1D2DE;
+        padding: 0.05rem;
+        border-radius: 0.5rem;
+    }
+
     .nav-menu ul{
         list-style-position: outside;
         list-style-type: none;
         margin: 0;
         padding: 10px 0;
-        text-align: center;
     }
 
-    .nav-menu ul li{
-        margin: 0;
+    .nav-menu li{
+        width: auto;
     }
 
     .nav-menu a{
-        text-align: center;
         font-size: small;
         padding: 5px;
         letter-spacing: 1px;
+        border-radius: 0.5rem;
     }
+
+
+    /*-----------------------------*/
+    /* Right-box area and Projects */
+    /*-----------------------------*/
+
 
     .right-box{
         margin: 0 5% 5%;
